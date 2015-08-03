@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-components',
+  name: 'ember-ika-components',
 
   included: function(app) {
     //this._super.included(app);
