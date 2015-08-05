@@ -1,0 +1,9 @@
+header {
+  padding: 10px;
+}
+header .user, header .app {
+  float: left;
+}
+header .user {
+  margin-right: 20px;
+}
