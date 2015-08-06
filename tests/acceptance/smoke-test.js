@@ -18,6 +18,6 @@ test('render ok', function(assert) {
   visit('/');
 
   andThen(function() {
-    assert.ok(Ember.$('body').text().match(/Welcome to Ember\.js/));
+    assert.ok(Ember.$('body').text().indexOf('ember-ika-components'));
   });
 });
