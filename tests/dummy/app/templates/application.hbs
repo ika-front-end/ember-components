@@ -1,9 +1,10 @@
 {{#ember-header appName="ember-ika-components" userName="ika-front-end"}}
-  <ul>
-    <li>get start</li>
-    <li>layout</li>
-    <li>forms</li>
-    <li>components</li>
-  </ul>
+  <nav>
+    <ul>
+      <li>{{#link-to 'gettingStarted'}}getting started{{/link-to}}</li>
+      <li>{{#link-to 'forms'}}forms{{/link-to}}</li>
+      <li>{{#link-to 'components'}}components{{/link-to}}</li>
+    </ul>
+  </nav>
 {{/ember-header}}
 {{outlet}}

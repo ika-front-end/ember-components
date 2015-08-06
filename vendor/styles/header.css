@@ -1,6 +1,7 @@
 header {
-  padding: 10px;
+  padding: 2rem 10px 2rem 1.8rem;
+  border-bottom: 1px solid #ccc;
 }
 header .app {
-  margin-right: 10rem;
+  1margin-right: 5em;
 }
