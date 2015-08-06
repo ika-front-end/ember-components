@@ -4,7 +4,7 @@ import { test, moduleForComponent } from 'ember-qunit';
 
 //var App;
 
-moduleForComponent('ember-header', 'EmberHeaderComponent', {});
+moduleForComponent('em-header', 'EmHeaderComponent', {});
 
 test('is a header tag', function(assert) {
   assert.equal('HEADER', this.$().prop('tagName').toUpperCase());
